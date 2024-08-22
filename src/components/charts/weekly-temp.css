@@ -1,0 +1,22 @@
+.ag-charts-react {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+  }
+  
+  /* Style the chart title */
+  .ag-chart-title {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Style the x-axis labels */
+  .ag-axis-label-x {
+    font-size: 14px;
+  }
+  
+  /* Style the y-axis labels */
+  .ag-axis-label-y {
+    font-size: 14px;
+  }
+  
