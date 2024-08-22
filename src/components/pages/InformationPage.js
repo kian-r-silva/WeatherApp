@@ -5,7 +5,7 @@ const InformationPage = () => {
   return (
     <div classname="container">
       <header classname="header">
-        <h1>WeatherNow - Your Daily Weather Companion</h1>
+        <h1>Weather App Information</h1>
       </header>
 
 
@@ -19,17 +19,13 @@ const InformationPage = () => {
           <li><strong>Interactive Maps:</strong> Explore weather patterns with our interactive maps, showing temperature, precipitation, and more.</li>
         </ul>
 
-        <h2>How to Use WeatherNow</h2>
+        <h2>How to Use Weather App</h2>
         <ol>
           <li><strong>Set Up Your Location:</strong> Search the desired location in the search bar on the home page. </li>
           <li><strong>Explore Features:</strong> Use the navigation menu to explore the various sections, such as the daily forecast, forcast maps, and weekly forcast</li>
           <li><strong>Stay Informed:</strong> Check the app regularly to stay updated on the latest weather conditions and forecasts.</li>
         </ol>
 
-        <h2>Support</h2>
-        <p>
-          If you have any questions or need assistance, please visit our <a href="#">Support Page</a> or contact our customer service team at support@weathernow.com.
-        </p>
       </main>
 
     </div>
