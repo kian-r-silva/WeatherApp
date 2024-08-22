@@ -3,13 +3,12 @@ import './InformationPage.css';
 
 const InformationPage = () => {
   return (
-    <div classname="container">
-      <header classname="header">
+    <div className="info-container">
+      <header className="info-header">
         <h1>Weather App Information</h1>
       </header>
 
-
-      <main className='main'>
+      <main className='info-main'>
         <h2>Features</h2>
         <ul>
           <li><strong>Real-time Weather Updates:</strong> Get live weather updates for your current location or any city worldwide.</li>

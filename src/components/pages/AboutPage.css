@@ -1,10 +1,12 @@
+/* General reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  .info-container {
+  /* Container Styles */
+  .about-container {
     font-family: 'Libre Franklin', sans-serif;
     background-color: #f4f6f9;
     color: #333;
@@ -13,7 +15,8 @@
     margin: 0 auto;
   }
   
-  .info-header {
+  /* Header Styles */
+  .about-header {
     background-color: #34568B;
     color: white;
     padding: 20px;
@@ -23,7 +26,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .info-main {
+  /* Main Content Styles */
+  .about-main {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 0.5rem;
@@ -31,33 +35,16 @@
     line-height: 1.6;
   }
   
-  .info-main h2 {
+  .about-section {
+    margin-bottom: 20px;
+  }
+  
+  .about-section h2 {
     color: #34568B;
     margin-bottom: 15px;
   }
   
-  .info-main ul, .info-main ol {
-    margin: 20px 0;
-    padding-left: 20px;
-  }
-  
-  .info-main ul li, .info-main ol li {
+  .about-section p {
     margin-bottom: 10px;
   }
-  
-  .info-main p {
-    margin-top: 20px;
-  }
-  
-  .info-main a {
-    color: #007BFF;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .info-main a:hover {
-    text-decoration: underline;
-  }
-  
-  
   
